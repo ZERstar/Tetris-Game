@@ -79,3 +79,22 @@ def startGame():
 
         pygame.display.flip()
         clock.tick(fps)    
+        
+        
+#          font = pygame.font.SysFont('Calibri', 40, True, False)
+#         font1 = pygame.font.SysFont('Calibri', 25, True, False)
+#         text = font.render("Score: " + str(game.score), True, '#000000')
+#         text_game_over = font.render("Game Over", True, '#000000')
+#         text_game_over1 = font.render("Press ESC", True, '#000000')
+
+#         # Ending the game if state is gameover
+#         screen.blit(text, [300, 0])
+#         if game.state == "gameover":
+#             screen.blit(text_game_over, [300, 200])
+#             screen.blit(text_game_over1, [300, 265])
+
+#         game.draw_next_block(screen)
+        
+        
+        
+        
