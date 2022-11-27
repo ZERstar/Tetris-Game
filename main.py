@@ -6,6 +6,8 @@ def startGame():
     counter = 0
 
     pressing_down = False
+    
+    #
 
     while not done:
         # Create a new block if there is no moving block
